@@ -1,19 +1,19 @@
 package DesafioIphone.model;
 
 public class ReprodutorMusical{
-    public void tocar() {
+    public void Tocar() {
         System.out.println("Iniciando reprodutor de midia");
     }
 
-    public void pausar() {
+    public void Pausar() {
         System.out.println("Reprodutor de midia pausado");
     }
 
-    public void selecionarMusica(String musica) {
+    public void SelecionarMusica(String musica) {
         System.out.println("Reproduzindo musica " + musica);
     }
 
-    public void reproduzindoFilme(String midia){
+    public void ReproduzindoFilme(String midia){
         System.out.println("Reproduzindo " + midia);
     }
 }

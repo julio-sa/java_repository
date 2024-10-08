@@ -27,23 +27,23 @@ public class Iphone {
                     String musica = scanner.nextLine();
                     scanner.close();
                     if (musica != null) {
-                        ipod.tocar();
-                        ipod.selecionarMusica(musica);
+                        ipod.Tocar();
+                        ipod.SelecionarMusica(musica);
                     }
                 } else {
                     System.out.println("Escolha um filme ou serie para reproducao: ");
                     String filme = scanner.nextLine();
                     scanner.close();
                     if (filme != null) {
-                        ipod.tocar();
-                        ipod.reproduzindoFilme(filme);
+                        ipod.Tocar();
+                        ipod.ReproduzindoFilme(filme);
                     }
                 }
 
                 System.out.println("Pausar");
                 String pause = scanner.nextLine();
                 if (pause != null) {
-                    ipod.pausar();
+                    ipod.Pausar();
                 }
                 break;
             }
@@ -52,7 +52,7 @@ public class Iphone {
                 System.out.println("Digite o telefone");
                 String numero = scanner.nextLine();
                 scanner.close();
-                telefone.ligar(numero);
+                telefone.Ligar(numero);
                 telefone.RecebendoChamada(numero);
             }
 
@@ -60,18 +60,18 @@ public class Iphone {
                 System.out.println("Digite a URL da pagina");
                 String url = scanner.nextLine();
                 scanner.close();
-                safari.exibirPagina(url);
+                safari.ExibirPagina(url);
 
                 System.out.println("Adicionar nova pagina\n\tSim\n\tNao");
                 String adicionar = scanner.nextLine().toLowerCase();
                 if (adicionar.equals("sim")) {
-                    safari.adicionarNova();
+                    safari.AdicionarNova();
                 }
 
                 System.out.println("Atualizar pagina\n\tSim\n\tNao");
                 String atualizar = scanner.nextLine().toLowerCase();
                 if (atualizar.equals("sim")) {
-                    safari.atualizarPagina();
+                    safari.AtualizarPagina();
                 }
                 break;
             }

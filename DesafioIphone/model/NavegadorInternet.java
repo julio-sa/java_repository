@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class NavegadorInternet{
     Scanner scanner = new Scanner(System.in);
-    public void exibirPagina(String url) {
+    public void ExibirPagina(String url) {
         System.out.println("Carregando Pagina " + url);
     }
 
-    public void adicionarNova() {
+    public void AdicionarNova() {
         System.out.println("Abrindo nova aba");
     }
 
-    public void atualizarPagina() {
+    public void AtualizarPagina() {
         System.out.println("Recarregando...");
     }
 

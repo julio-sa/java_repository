@@ -11,7 +11,7 @@ public class AparelhoTelefonico {
 
     Scanner scanner = new Scanner(System.in);
 
-    public void ligar(String numero) {
+    public void Ligar(String numero) {
         // Ligando para o numero
         System.out.println("Ligando para " + numero);
 
